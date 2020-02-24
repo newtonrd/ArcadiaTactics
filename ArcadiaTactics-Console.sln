@@ -1,0 +1,41 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcadiaTactics-Console", "ArcadiaTactics-Console\ArcadiaTactics-Console.csproj", "{98B80E70-A8BB-4C66-957E-73925FAE177B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcadiaTactices-Entities", "ArcadiaTactices-Entities\ArcadiaTactices-Entities.csproj", "{64249986-C495-414E-B136-2382CAB5AE3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcadiaTactics-Static", "ArcadiaTactics-Static\ArcadiaTactics-Static.csproj", "{DA3DC8A4-140D-4C93-93DD-E02ADBF910B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcadiaTactics-Tools", "ArcadiaTactics-Tools\ArcadiaTactics-Tools.csproj", "{E1354408-9C89-4D6A-A197-EADFCC7C4318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcadiaTactics-Game", "ArcadiaTactics-Game\ArcadiaTactics-Game.csproj", "{0D517086-21B6-4F58-BEDD-6529C1726BAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98B80E70-A8BB-4C66-957E-73925FAE177B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B80E70-A8BB-4C66-957E-73925FAE177B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B80E70-A8BB-4C66-957E-73925FAE177B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B80E70-A8BB-4C66-957E-73925FAE177B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64249986-C495-414E-B136-2382CAB5AE3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64249986-C495-414E-B136-2382CAB5AE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64249986-C495-414E-B136-2382CAB5AE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64249986-C495-414E-B136-2382CAB5AE3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA3DC8A4-140D-4C93-93DD-E02ADBF910B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3DC8A4-140D-4C93-93DD-E02ADBF910B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3DC8A4-140D-4C93-93DD-E02ADBF910B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3DC8A4-140D-4C93-93DD-E02ADBF910B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1354408-9C89-4D6A-A197-EADFCC7C4318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1354408-9C89-4D6A-A197-EADFCC7C4318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1354408-9C89-4D6A-A197-EADFCC7C4318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1354408-9C89-4D6A-A197-EADFCC7C4318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D517086-21B6-4F58-BEDD-6529C1726BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D517086-21B6-4F58-BEDD-6529C1726BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D517086-21B6-4F58-BEDD-6529C1726BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D517086-21B6-4F58-BEDD-6529C1726BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

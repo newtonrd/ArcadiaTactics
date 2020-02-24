@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>ArcadiaTactics_Static</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Text\" />
+    <Folder Include="Text\Stories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Text\Stories\game_introduction.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Text\Stories\game_introduction.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

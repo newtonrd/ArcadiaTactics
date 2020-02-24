@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>ArcadiaTactics_Game</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="GameStates\" />
+    <Folder Include="GameStates\Levels\" />
+    <Folder Include="GameStates\Menus\" />
+    <Folder Include="GameStates\Abstractions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ArcadiaTactics-Tools\ArcadiaTactics-Tools.csproj" />
+    <ProjectReference Include="..\ArcadiaTactics-Static\ArcadiaTactics-Static.csproj" />
+  </ItemGroup>
+</Project>
