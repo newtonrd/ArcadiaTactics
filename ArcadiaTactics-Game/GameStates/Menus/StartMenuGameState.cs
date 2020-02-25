@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Linq;
 using ArcadiaTactics_Game.GameStates.Abstractions;
 using ArcadiaTactics_Tools;
+using ArcadiaTactics_Tools.Menus;
 
 namespace ArcadiaTactics_Game.GameStates.Menus
 {
@@ -18,9 +20,28 @@ namespace ArcadiaTactics_Game.GameStates.Menus
         {
             base.Activate();
 
-            //FileReader.PrintAllFiles_DEBUG();
-
             Consoler.PrintToConsole(StartMessage);
+
+            var newGameMenuItem = new MenuSelectionItem()
+            {
+                MenuSelectionText = "New Game",
+                MenuAction = delegate () { Console.WriteLine("NEW GAME"); }
+            };
+
+            var exitGameMenuItem = new MenuSelectionItem()
+            {
+                MenuSelectionText = "Exit Game",
+                MenuAction = delegate () { Console.WriteLine("EXIT GAME"); }
+            };
+
+            var menu = new MenuSelectionTool(2)
+            {
+                [0] = newGameMenuItem,
+                [1] = exitGameMenuItem
+            };
+
+            Consoler.HandleMenuSelection(menu)();
         }
     }
+
 }
