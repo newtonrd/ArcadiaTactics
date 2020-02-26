@@ -13,5 +13,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ArcadiaTactics-Tools\ArcadiaTactics-Tools.csproj" />
+    <ProjectReference Include="..\ArcadiaTactices-Entities\ArcadiaTactices-Entities.csproj" />
   </ItemGroup>
 </Project>

@@ -10,6 +10,8 @@
     <Folder Include="Heroes\" />
     <Folder Include="Abstractions\" />
     <Folder Include="Enemies\Basic\" />
+    <Folder Include="Enemies\Interfaces\" />
+    <Folder Include="Heroes\Interfaces\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Class1.cs" />
